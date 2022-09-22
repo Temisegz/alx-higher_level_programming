@@ -6,7 +6,7 @@
  * Return: 0 if no cycle is detected, 1 if there is a cycle
  */
 
-int check_cycle(listint_t *list)
+int check_cycle(listint_t *list);
 {
 	listint_t *doub = list;
 	listint_t *reg = list;
